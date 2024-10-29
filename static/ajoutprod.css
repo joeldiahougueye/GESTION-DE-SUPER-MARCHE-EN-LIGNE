@@ -1,0 +1,110 @@
+/* Style général du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Couleur de fond claire */
+    margin: 0;
+    padding: 20px;
+    display: flex; /* Utilise Flexbox pour centrer le contenu */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+body {
+    background-image: url('../static/produit.avif'); /* Chemin relatif à partir du fichier CSS */
+    background-size: auto;
+    background-repeat: repeat;
+    color: #a93636;
+}
+
+.titre-principal {
+    color: #591ce6; 
+}
+
+.banner {
+    display: block;                
+    background-color: #007bff;     
+    color: white;                  
+    padding: 10px 0;               
+    text-align: center;            
+    font-size: 1.2em;              
+    text-decoration: none;         
+}
+
+.banner:hover {
+    background-color: #121212;     
+}
+
+
+.title {
+    display: block;                
+    background-color: #007bff;     
+    color: white;                  
+    padding: 10px 0;               
+    text-align: center;            
+    font-size: 1.2em;              
+    text-decoration: none;         
+}
+
+.title:hover {
+    background-color: #121212;     
+}
+
+/* Style du titre principal */
+h1 {
+    color: #333; /* Couleur du texte */
+    text-align: center; /* Centre le titre */
+    margin-bottom: 30px; /* Espace sous le titre */
+}
+
+/* Style du formulaire */
+form {
+    background-color: #fff; /* Couleur de fond blanche pour le formulaire */
+    border: 1px solid #ddd; /* Bordure légère autour du formulaire */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 20px; /* Espacement intérieur */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour le formulaire */
+    width: 300px; /* Largeur fixe pour le formulaire */
+}
+
+/* Style des labels */
+label {
+    display: block; /* Affiche les labels en bloc pour un alignement vertical */
+    margin-bottom: 5px; /* Espace sous chaque label */
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="number"] {
+    width: 100%; /* Prend toute la largeur du conteneur */
+    padding: 10px; /* Espacement intérieur des champs de saisie */
+    margin-bottom: 15px; /* Espace entre les champs de saisie */
+    border: 1px solid #ccc; /* Bordure légère autour des champs de saisie */
+    border-radius: 4px; /* Coins arrondis pour les champs de saisie */
+}
+
+/* Style du bouton de soumission */
+button {
+    background-color: #007BFF; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Supprime la bordure par défaut du bouton */
+    padding: 10px 15px; /* Espacement intérieur du bouton */
+    border-radius: 4px; /* Coins arrondis pour le bouton */
+    cursor: pointer; /* Change le curseur au survol */
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+}
+
+/* Style pour le lien de retour */
+a {
+    margin-top: 20px; /* Espace au-dessus du lien de retour */
+    color: #007BFF; /* Couleur du lien de retour */
+    text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+/* Effet au survol du lien de retour */
+a:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+}

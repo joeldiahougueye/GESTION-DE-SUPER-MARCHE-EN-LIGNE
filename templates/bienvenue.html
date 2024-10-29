@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+  <body>
+
+    <h1>BIENVENUE SUR LE SITE DE NOTRE SUPERMARCHE</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for ( 'afficher_produits' ) }}">Voir les produits</a></li>
+            <li><a href="{{ url_for ( 'ajouterproduit' ) }}">Ajouter un produit</a></li>
+            <li><a href="{{ url_for ( 'afficher_fournisseurs' ) }}">Voir les fournisseurs</a></li>
+            <li><a href="{{ url_for ( 'enregistrer_vente' ) }}">Enregistrer une vente</a></li>
+        </ul>
+    </nav>  
+  </body>
+</html>

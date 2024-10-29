@@ -1,0 +1,118 @@
+css
+/* Produit.css */
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto; /* Centre le tableau horizontalement */
+}
+body {
+    background-image: url('../static/produit.avif'); /* Chemin relatif à partir du fichier CSS */
+    background-size: auto;
+    background-repeat: repeat;
+    color: #a93636;
+}
+
+.titre-principal {
+    color: #591ce6; 
+}
+
+.banner {
+    display: block;                
+    background-color: #007bff;     
+    color: white;                  
+    padding: 10px 0;               
+    text-align: center;            
+    font-size: 1.2em;              
+    text-decoration: none;         
+}
+
+.banner:hover {
+    background-color: #121212;     
+}
+
+.titre {
+    display: block;                
+    background-color: #007bff;     
+    color: white;                  
+    padding: 10px 0;               
+    text-align: center;            
+    font-size: 1.2em;              
+    text-decoration: none;         
+}
+
+.titre:hover {
+    background-color: #121212;     
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #515aba;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #7640a3;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+a.button:hover {
+    background-color: #45a049;
+}
+
+a#back-home {
+    margin-top: 20px;
+    color: #4CAF50;
+}
+

@@ -1,0 +1,80 @@
+
+/* Produit.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    background-image: url('../static/fournir.avif'); /* Chemin relatif à partir du fichier CSS */
+    background-size: auto;
+    background-repeat: repeat;
+    color: #a93636;
+}
+
+.titre-principal {
+    color: #f1eaea; 
+}
+
+.banner {
+    display: block;                
+    background-color: #007bff;     
+    color: white;                  
+    padding: 10px 0;               
+    text-align: center;            
+    font-size: 1.2em;              
+    text-decoration: none;         
+}
+
+.banner:hover {
+    background-color: #121212;     
+}
+
+h1 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    color: #384d7c;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+}
+
+li {
+    background-color: #846fdf;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #45a049;
+}

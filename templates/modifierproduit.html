@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modifier_produit</title>
+    <link rel="stylesheet" href="modprod.css">
+</head>
+<body>
+    <h1>Modifier le produit</h1>
+    <form method="POST">
+        
+        <label>Nom :
+            <input type="text" name="nom" value="{{ produit[1] }}" required/><br>
+        </label>
+        
+        <label>Prix :
+            <input type="number" name="prix" value="{{ produit[2] }}" step="0.01" required><br>
+        </label>
+        
+        <label>Stock :
+            <input type="number" name="stock" value="{{ produit[3] }}" required><br>
+        </label>
+        
+        <button type="submit">Mettre à jour</button>
+    </form>
+    <a href="{{ url_for ( 'afficher_produits' ) }}">Retour aux produits</a>
+
+</body>
+</html>

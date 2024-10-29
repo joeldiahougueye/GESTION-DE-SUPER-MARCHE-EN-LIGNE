@@ -1,0 +1,59 @@
+/* Style général du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Couleur de fond claire */
+    margin: 0;
+    padding: 20px;
+    display: flex; /* Utilise Flexbox pour centrer le contenu */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+/* Style du titre principal */
+h1 {
+    color: #333; /* Couleur du texte */
+    text-align: center; /* Centre le titre */
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+/* Style du paragraphe de confirmation */
+p {
+    color: #555; /* Couleur du texte du paragraphe */
+    text-align: center; /* Centre le texte */
+    margin-bottom: 30px; /* Espace sous le paragraphe */
+}
+
+/* Style du formulaire */
+form {
+    display: flex; /* Utilise Flexbox pour aligner les éléments à l'intérieur du formulaire */
+    flex-direction: column; /* Aligne les éléments en colonne */
+    align-items: center; /* Centre les éléments horizontalement */
+}
+
+/* Style du bouton de confirmation */
+button {
+    background-color: #d9534f; /* Couleur rouge pour le bouton de suppression */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Supprime la bordure par défaut du bouton */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    border-radius: 4px; /* Coins arrondis pour le bouton */
+    cursor: pointer; /* Change le curseur au survol */
+    font-size: 16px; /* Taille de police pour le bouton */
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background-color: #c9302c; /* Couleur plus foncée au survol */
+}
+
+/* Style pour le lien d'annulation */
+a {
+    margin-top: 20px; /* Espace au-dessus du lien d'annulation */
+    color: #007BFF; /* Couleur du lien d'annulation */
+    text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+/* Effet au survol du lien d'annulation */
+a:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+}

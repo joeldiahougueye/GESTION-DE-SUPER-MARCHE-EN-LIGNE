@@ -1,0 +1,55 @@
+/* Style général du corps */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+body {
+    background-image: url('../static/super.avif'); /* Chemin relatif à partir du fichier CSS */
+    background-size: auto;
+    background-repeat: repeat;
+    color: #a93636;
+}
+
+.titre-principal {
+    color: #591ce6; 
+}
+
+/* Style du titre principal */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Style de la navigation */
+nav {
+    background-color: #007BFF; /* Couleur de fond de la navigation */
+    border-radius: 5px; /* Coins arrondis */
+    padding: 15px; /* Espacement intérieur */
+}
+
+/* Liste non ordonnée dans la navigation */
+nav ul {
+    list-style-type: none; /* Supprime les puces */
+    padding: 0; /* Supprime le padding par défaut */
+}
+
+/* Liens dans la navigation */
+nav ul li {
+    display: inline; /* Affiche les éléments en ligne */
+    margin-right: 20px; /* Espace entre les éléments */
+}
+
+/* Style des liens */
+nav ul li a {
+    color: white; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-weight: bold; /* Met le texte en gras */
+}
+
+/* Effet au survol des liens */
+nav ul li a:hover {
+    text-decoration: underline; /* Souligne le lien au survol */
+}
